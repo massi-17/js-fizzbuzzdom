@@ -1,5 +1,5 @@
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #083B4C;
@@ -9,10 +9,37 @@
 h1 {
     color: white;
     text-align: center;
-    margin-top: 15px;
+    margin: 15px 0;
     font-size: 60px;
 }
 
-.container {
+#container {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: black;
+    margin: 40px 150px;  
+    font-weight: 500; 
+    
+}
+
+.box {
+    background-color: #1389B2;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fizzbuzz {
+    background-color: #F0466F;
+}
+
+.buzz {
+    background-color: #FFD166;
+}
+
+.fizz {
+    background-color: #0BD6A1;
 }
